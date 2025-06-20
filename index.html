@@ -1,82 +1,472 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Temple Landing</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temple Landing - Discover Japan</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+  <!-- Header Section -->
   <header>
     <nav id="navbar">
-        <div class="nav-content">
-          
+      <div class="nav-content">
+        <!-- Navigation content can be added here -->
+      </div>
     </nav>
   </header>
 
+  <!-- Hero Section -->
   <section class="hero">
     <div class="content">
       <h1>Welcome To <br><span>Japan</span></h1>
       <p>Japan, a unique blend of ancient tradition and cutting-edge technology, invites you to explore its stunning landscapes, rich culture, and unforgettable flavors.</p>
-      <button class="button-42" role="button"> Explore </button>
+      <button class="button-42" role="button">Explore</button>
     </div>
-    <img src="templo.png" alt="Temple" class="temple-img" />
+    <img src="/Imagenes/templo.png" alt="Temple" class="temple-img">
   </section>
 
-  <section id="info" class="section info-section" style="display: grid; gap: 2rem; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); padding: 2rem; background-color: #f8f8f8;">
-
-    <!-- Introduction Card -->
-    <div class="info-card" style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-      <img src="antigua-china-e1644342694383-800x400.jpg" alt="Japan Overview" style="width: 100%; height: 200px; object-fit: cover;">
-      <div style="padding: 1rem;">
-        <h2>🇯🇵 Japan: A Modern Island Nation</h2>
-        <p><strong></strong> Japan is an island country located in East Asia. It is renowned for its harmonious blend of ancient traditions and cutting-edge innovation. With a population of over 125 million, Japan is the third-largest economy in the world and a hub of art, design, and engineering excellence.</p>
+  <!-- Information Section -->
+  <section id="info" class="section info-section">
+    <div class="info-grid">
+      
+      <!-- Introduction Card -->
+      <div class="info-card">
+        <img src="/Imagenes/antigua-china-e1644342694383-800x400.jpg" alt="Japan Overview" class="card-image">
+        <div class="card-content">
+          <h2>🇯🇵 Japan: A Modern Island Nation</h2>
+          <p>Japan is an island country located in East Asia. It is renowned for its harmonious blend of ancient traditions and cutting-edge innovation. With a population of over 125 million, Japan is the third-largest economy in the world and a hub of art, design, and engineering excellence.</p>
+        </div>
       </div>
-    </div>
-  
-    <!-- Geography Card -->
-    <div class="info-card" style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-      <img src="japon-7-e1571188423405-800x415.jpg" alt="Geography of Japan" style="width: 100%; height: 200px; object-fit: cover;">
-      <div style="padding: 1rem;">
-        <h2>🗾 Geography & Nature</h2>
-        <p><strong></strong> Japan is composed of four main islands—Honshu, Hokkaido, Kyushu, and Shikoku—along with thousands of smaller ones. The country is characterized by mountainous terrain, dense forests, and a dramatic coastline. Earthquakes and volcanoes are common due to Japan's location on the Pacific Ring of Fire.</p>
-      </div>
-    </div>
-  
-    <!-- Culture Card -->
-    <div class="info-card" style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-      <img src="japon-vestimenta-geisha-e1573442494456.jpg" alt="Japanese Culture" style="width: 100%; height: 200px; object-fit: cover;">
-      <div style="padding: 1rem;">
-        <h2>🎎 Culture & Identity</h2>
-        <p><strong></strong> Japanese culture is a unique fusion of ancient customs and contemporary expression. Traditional arts include ikebana (flower arranging), tea ceremonies, noh and kabuki theater, and calligraphy. Today, Japan is also a global influencer in design, fashion, gaming, and animation.</p>
-      </div>
-    </div>
-  
-    <!-- Tourism Card -->
-    <div class="info-card" style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-      <img src="japan-1024x819.png" alt="Tourism in Japan" style="width: 100%; height: 200px; object-fit: cover;">
-      <div style="padding: 1rem;">
-        <h2>🗼 Discovering Japan</h2>
-        <p><strong></strong> Japan welcomes millions of tourists annually. From the neon-lit streets of Tokyo to the serene temples of Kyoto, each region offers a distinct experience. Visitors can explore samurai castles, soak in hot springs (onsen), admire cherry blossoms, and take part in traditional craft workshops.</p>
-      </div>
-    </div>
-  
-    <!-- Conclusion Card -->
-    <div class="info-card" style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-      <img src="03_R01-scaled.webp" alt="Conclusion Japan" style="width: 100%; height: 200px; object-fit: cover;">
-      <div style="padding: 1rem;">
-        <h2>🌸 Final Thoughts</h2>
-        <p><strong></strong> Japan captivates the world through its contrast of old and new. Whether you're fascinated by ancient temples or robotic innovations, Japan provides an unforgettable journey through time, culture, and beauty. It remains a place where history breathes through the modern world.</p>
-      </div>
-    </div>
-  
- 
 
-<!-- Botón para volver arriba -->
-<button id="backToTop" title="Volver arriba">⬆️</button>
+      <!-- Geography Card -->
+      <div class="info-card">
+        <img src="/Imagenes/japon-7-e1571188423405-800x415.jpg" alt="Geography of Japan" class="card-image">
+        <div class="card-content">
+          <h2>🗾 Geography & Nature</h2>
+          <p>Japan is composed of four main islands—Honshu, Hokkaido, Kyushu, and Shikoku—along with thousands of smaller ones. The country is characterized by mountainous terrain, dense forests, and a dramatic coastline. Earthquakes and volcanoes are common due to Japan's location on the Pacific Ring of Fire.</p>
+        </div>
+      </div>
 
-<!-- Script JS -->
+      <!-- Culture Card -->
+      <div class="info-card">
+        <img src="/Imagenes/japon-vestimenta-geisha-e1573442494456.jpg" alt="Japanese Culture" class="card-image">
+        <div class="card-content">
+          <h2>🎎 Culture & Identity</h2>
+          <p>Japanese culture is a unique fusion of ancient customs and contemporary expression. Traditional arts include ikebana (flower arranging), tea ceremonies, noh and kabuki theater, and calligraphy. Today, Japan is also a global influencer in design, fashion, gaming, and animation.</p>
+        </div>
+      </div>
 
+      <!-- Tourism Card -->
+      <div class="info-card">
+        <img src="/Imagenes/japan-1024x819.png" alt="Tourism in Japan" class="card-image">
+        <div class="card-content">
+          <h2>🗼 Discovering Japan</h2>
+          <p>Japan welcomes millions of tourists annually. From the neon-lit streets of Tokyo to the serene temples of Kyoto, each region offers a distinct experience. Visitors can explore samurai castles, soak in hot springs (onsen), admire cherry blossoms, and take part in traditional craft workshops.</p>
+        </div>
+      </div>
 
-  <script src="script.js"></script>
+      <!-- Conclusion Card -->
+      <div class="info-card">
+        <img src="/Imagenes/03_R01-scaled.webp" alt="Conclusion Japan" class="card-image">
+        <div class="card-content">
+          <h2>🌸 Final Thoughts</h2>
+          <p>Japan captivates the world through its contrast of old and new. Whether you're fascinated by ancient temples or robotic innovations, Japan provides an unforgettable journey through time, culture, and beauty. It remains a place where history breathes through the modern world.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Timezones Section -->
+  <section class="timezones-section">
+    <h2>🌍 World Time Zones</h2>
+    <div class="timezones-container">
+      
+      <div class="timezone-card">
+        <h3>🇯🇵 Japan</h3>
+        <p class="clock" data-timezone="Asia/Tokyo"></p>
+      </div>
+
+      <div class="timezone-card">
+        <h3>🇺🇸 New York</h3>
+        <p class="clock" data-timezone="America/New_York"></p>
+      </div>
+
+      <div class="timezone-card">
+        <h3>🇨🇴 Colombia (Bogotá)</h3>
+        <p class="clock" data-timezone="America/Bogota"></p>
+      </div>
+
+      <div class="timezone-card">
+        <h3>🇬🇧 United Kingdom (London)</h3>
+        <p class="clock" data-timezone="Europe/London"></p>
+      </div>
+
+      <div class="timezone-card">
+        <h3>🇰🇷 South Korea</h3>
+        <p class="clock" data-timezone="Asia/Seoul"></p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Typical Food Section -->
+  <section class="food-section">
+    <h2 class="masked-text">🍣 Typical Japanese Food</h2>
+    <p class="food-subtext">Discover the authentic flavors and culinary traditions that make Japanese cuisine world-renowned.</p>
+    
+    <div class="food-container">
+      
+      <div class="food-card">
+        <div class="food-image-container">
+          <span class="food-emoji">🍣</span>
+        </div>
+        <div class="food-content">
+          <h3>Sushi</h3>
+          <p>Fresh raw fish served over seasoned rice. From traditional nigiri to creative rolls, sushi represents the pinnacle of Japanese culinary artistry.</p>
+          <div class="food-tags">
+            <span class="tag">Raw Fish</span>
+            <span class="tag">Rice</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="food-card">
+        <div class="food-image-container">
+          <span class="food-emoji">🍜</span>
+        </div>
+        <div class="food-content">
+          <h3>Ramen</h3>
+          <p>Hearty noodle soup with rich broth, topped with pork, eggs, and vegetables. Each region has its own unique style and flavor profile.</p>
+          <div class="food-tags">
+            <span class="tag">Noodles</span>
+            <span class="tag">Broth</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="food-card">
+        <div class="food-image-container">
+          <span class="food-emoji">🍱</span>
+        </div>
+        <div class="food-content">
+          <h3>Bento</h3>
+          <p>Balanced meal served in a compartmentalized box. Perfect harmony of rice, protein, vegetables, and pickles in one convenient package.</p>
+          <div class="food-tags">
+            <span class="tag">Complete Meal</span>
+            <span class="tag">Portable</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="food-card">
+        <div class="food-image-container">
+          <span class="food-emoji">🍢</span>
+        </div>
+        <div class="food-content">
+          <h3>Yakitori</h3>
+          <p>Grilled chicken skewers seasoned with tare sauce or salt. A popular street food and izakaya staple perfect for sharing.</p>
+          <div class="food-tags">
+            <span class="tag">Grilled</span>
+            <span class="tag">Street Food</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="food-card">
+        <div class="food-image-container">
+          <span class="food-emoji">🍤</span>
+        </div>
+        <div class="food-content">
+          <h3>Tempura</h3>
+          <p>Light, crispy battered and fried seafood or vegetables. The delicate coating preserves the natural flavors while adding perfect texture.</p>
+          <div class="food-tags">
+            <span class="tag">Fried</span>
+            <span class="tag">Crispy</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="food-card">
+        <div class="food-image-container">
+          <span class="food-emoji">🍡</span>
+        </div>
+        <div class="food-content">
+          <h3>Mochi</h3>
+          <p>Chewy rice cakes that can be sweet or savory. Often filled with red bean paste or ice cream, mochi is enjoyed year-round.</p>
+          <div class="food-tags">
+            <span class="tag">Sweet</span>
+            <span class="tag">Rice</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="food-card">
+        <div class="food-image-container">
+          <span class="food-emoji">🥟</span>
+        </div>
+        <div class="food-content">
+          <h3>Gyoza</h3>
+          <p>Pan-fried dumplings filled with pork and vegetables. Crispy on the bottom, steamed on top - the perfect texture combination.</p>
+          <div class="food-tags">
+            <span class="tag">Dumplings</span>
+            <span class="tag">Pan-fried</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="food-card">
+        <div class="food-image-container">
+          <span class="food-emoji">🍵</span>
+        </div>
+        <div class="food-content">
+          <h3>Matcha</h3>
+          <p>Powdered green tea with a rich, earthy flavor. Central to Japanese tea ceremony and used in countless desserts and sweets.</p>
+          <div class="food-tags">
+            <span class="tag">Tea</span>
+            <span class="tag">Traditional</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Fun Facts Section -->
+  <section class="fun-facts-section">
+    <h2 class="masked-text">🎌 Fun Facts About Japan</h2>
+    <p class="facts-subtext">Discover amazing and surprising facts that make Japan one of the most fascinating countries in the world.</p>
+    
+    <div class="facts-container">
+      
+      <div class="fact-card">
+        <div class="fact-header">
+          <span class="fact-icon">🏔️</span>
+          <div class="fact-number">01</div>
+        </div>
+        <h3>Mount Fuji is Sacred</h3>
+        <p>Mount Fuji hasn't erupted since 1707! This iconic volcano is considered sacred and is climbed by over 200,000 people annually during the official climbing season.</p>
+      </div>
+
+      <div class="fact-card">
+        <div class="fact-header">
+          <span class="fact-icon">🏪</span>
+          <div class="fact-number">02</div>
+        </div>
+        <h3>Vending Machine Paradise</h3>
+        <p>Japan has the highest density of vending machines in the world - about 1 for every 23 people! You can buy everything from hot coffee to fresh bananas and even umbrellas.</p>
+      </div>
+
+      <div class="fact-card">
+        <div class="fact-header">
+          <span class="fact-icon">🚄</span>
+          <div class="fact-number">03</div>
+        </div>
+        <h3>Bullet Train Precision</h3>
+        <p>The Shinkansen (bullet train) has an average delay of just 18 seconds! In over 50 years of operation, there has never been a fatal accident due to derailment or collision.</p>
+      </div>
+
+      <div class="fact-card">
+        <div class="fact-header">
+          <span class="fact-icon">🐱</span>
+          <div class="fact-number">04</div>
+        </div>
+        <h3>Cat Island Exists</h3>
+        <p>Tashirojima, known as "Cat Island," has more cats than humans! The cats are believed to bring good luck to fishermen, and there are cat shrines throughout the island.</p>
+      </div>
+
+      <div class="fact-card">
+        <div class="fact-header">
+          <span class="fact-icon">📱</span>
+          <div class="fact-number">05</div>
+        </div>
+        <h3>Emoji Birthplace</h3>
+        <p>Emojis were invented in Japan! The first set of 176 emojis was created by Shigetaka Kurita in 1999 for a mobile internet platform. The word comes from "e" (picture) + "moji" (character).</p>
+      </div>
+
+      <div class="fact-card">
+        <div class="fact-header">
+          <span class="fact-icon">🎮</span>
+          <div class="fact-number">06</div>
+        </div>
+        <h3>Gaming Capital</h3>
+        <p>Japan is home to gaming giants Nintendo, Sony PlayStation, and Sega. The country produces some of the world's most beloved video game franchises like Mario, Pokémon, and Final Fantasy.</p>
+      </div>
+
+      <div class="fact-card">
+        <div class="fact-header">
+          <span class="fact-icon">🌸</span>
+          <div class="fact-number">07</div>
+        </div>
+        <h3>Cherry Blossom Forecast</h3>
+        <p>Japan has an official cherry blossom forecast called "Sakura-zensen"! Weather agencies track and predict when cherry blossoms will bloom across the country, and it's broadcast on national TV.</p>
+      </div>
+
+      <div class="fact-card">
+        <div class="fact-header">
+          <span class="fact-icon">🍜</span>
+          <div class="fact-number">08</div>
+        </div>
+        <h3>Slurping is Polite</h3>
+        <p>Slurping your noodles is not just acceptable - it's encouraged! It shows appreciation for the food and actually helps cool down hot noodles while enhancing the flavors.</p>
+      </div>
+
+      <div class="fact-card">
+        <div class="fact-header">
+          <span class="fact-icon">🏠</span>
+          <div class="fact-number">09</div>
+        </div>
+        <h3>Capsule Hotels</h3>
+        <p>Japan invented capsule hotels in the 1970s! These ultra-compact sleeping pods were originally designed for salary workers who missed the last train home.</p>
+      </div>
+
+      <div class="fact-card">
+        <div class="fact-header">
+          <span class="fact-icon">🎭</span>
+          <div class="fact-number">10</div>
+        </div>
+        <h3>Longest Reigning Monarchy</h3>
+        <p>Japan has the world's oldest continuous monarchy! The current Emperor's lineage can be traced back over 2,600 years, making it the longest unbroken chain of hereditary rulers.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Festivals Section -->
+  <section class="festivals-section">
+    <h2 class="masked-text">🎪 Japanese Festivals</h2>
+    <p class="festivals-subtext">Experience the vibrant celebrations that showcase Japan's rich cultural heritage and seasonal traditions throughout the year.</p>
+    
+    <div class="festivals-container">
+      
+      <div class="festival-card spring">
+        <div class="festival-season">Spring</div>
+        <div class="festival-icon">🌸</div>
+        <h3>Hanami Festival</h3>
+        <div class="festival-date">March - May</div>
+        <p>The most beloved spring tradition where people gather under blooming cherry trees for picnics. Parks across Japan transform into pink wonderlands, and families celebrate the fleeting beauty of sakura blossoms.</p>
+        <div class="festival-location">📍 Nationwide</div>
+      </div>
+
+      <div class="festival-card summer">
+        <div class="festival-season">Summer</div>
+        <div class="festival-icon">🎆</div>
+        <h3>Gion Matsuri</h3>
+        <div class="festival-date">July</div>
+        <p>Kyoto's most famous festival dating back over 1,100 years. Spectacular float processions called "yamaboko" parade through the streets, featuring elaborate decorations and traditional music.</p>
+        <div class="festival-location">📍 Kyoto</div>
+      </div>
+
+      <div class="festival-card summer">
+        <div class="festival-season">Summer</div>
+        <div class="festival-icon">🏃‍♂️</div>
+        <h3>Awa Odori</h3>
+        <div class="festival-date">August 12-15</div>
+        <p>Japan's most famous dance festival in Tokushima. Thousands of performers dance through the streets in colorful costumes to traditional music, creating an electrifying atmosphere.</p>
+        <div class="festival-location">📍 Tokushima</div>
+      </div>
+
+      <div class="festival-card autumn">
+        <div class="festival-season">Autumn</div>
+        <div class="festival-icon">🍂</div>
+        <h3>Jidai Matsuri</h3>
+        <div class="festival-date">October 22</div>
+        <p>The "Festival of Ages" in Kyoto features a grand procession showcasing different historical periods of Japan. Over 2,000 participants dress in authentic period costumes spanning 1,200 years.</p>
+        <div class="festival-location">📍 Kyoto</div>
+      </div>
+
+      <div class="festival-card winter">
+        <div class="festival-season">Winter</div>
+        <div class="festival-icon">❄️</div>
+        <h3>Sapporo Snow Festival</h3>
+        <div class="festival-date">February</div>
+        <p>World-famous winter festival featuring massive snow and ice sculptures. Artists from around the globe create incredible masterpieces, transforming Sapporo into a winter wonderland.</p>
+        <div class="festival-location">📍 Sapporo, Hokkaido</div>
+      </div>
+
+      <div class="festival-card summer">
+        <div class="festival-season">Summer</div>
+        <div class="festival-icon">🎋</div>
+        <h3>Tanabata</h3>
+        <div class="festival-date">July 7</div>
+        <p>The "Star Festival" celebrates the legend of two celestial lovers who can only meet once a year. People write wishes on colorful paper strips and hang them on bamboo branches.</p>
+        <div class="festival-location">📍 Sendai & Nationwide</div>
+      </div>
+
+      <div class="festival-card autumn">
+        <div class="festival-season">Autumn</div>
+        <div class="festival-icon">🎭</div>
+        <h3>Takayama Festival</h3>
+        <div class="festival-date">October 9-10</div>
+        <p>One of Japan's three most beautiful festivals, featuring ornate floats with intricate carvings and mechanical puppets. The traditional atmosphere makes you feel transported back in time.</p>
+        <div class="festival-location">📍 Takayama, Gifu</div>
+      </div>
+
+      <div class="festival-card summer">
+        <div class="festival-season">Summer</div>
+        <div class="festival-icon">🎪</div>
+        <h3>Nebuta Festival</h3>
+        <div class="festival-date">August 2-7</div>
+        <p>Aomori's spectacular festival featuring giant illuminated floats depicting warriors and mythical figures. The massive lantern floats create a magical nighttime parade through the city.</p>
+        <div class="festival-location">📍 Aomori</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Jobs Section -->
+  <section id="jobs" class="jobs-section">
+    <h2 class="masked-text">💼 Common Jobs in Japan</h2>
+    <p class="jobs-subtext">These are some of the most common professions across Japan's modern society.</p>
+    
+    <div class="jobs-container">
+      
+      <div class="job-card">
+        <img src="/Imagenes/giphy.webp" alt="Japan Overview" class="card-image">
+        <h3>Teacher</h3>
+        <p>Education is highly valued in Japan, making teaching a respected and stable profession.</p>
+      </div>
+
+      <div class="job-card">
+        <img src="/Imagenes/200.webp" alt="Japan Overview" class="card-image">
+        <h3>Software Engineer</h3>
+        <p>Japan is a leader in technology, with high demand for developers and IT specialists.</p>
+      </div>
+
+      <div class="job-card">
+        <img src="/Imagenes/Cgk (1).gif" alt="Japan Overview" class="card-image">
+        <h3>Researcher</h3>
+        <p>Scientific and medical research are major contributors to Japan's innovation.</p>
+      </div>
+
+      <div class="job-card">
+        <img src="/Imagenes/giphy (1).webp" alt="Japan Overview" class="card-image">
+        <h3>Chef</h3>
+        <p>With its world-renowned cuisine, Japan is home to thousands of chefs and culinary experts.</p>
+      </div>
+
+      <div class="job-card">
+        <img src="/Imagenes/PORTADA-ARTICULO-_Canal-Tradicional-Vs.-Canal-Moderno_-Diferencias-y-como-optimizarlos-para-una-ejecucion-perfecta_.gif" alt="Japan Overview" class="card-image">
+        <h3>Retail Worker</h3>
+        <p>Convenience stores and department stores are everywhere — and always staffed with care.</p>
+      </div>
+
+      <div class="job-card">
+        <img src="/Imagenes/200 (1).webp" alt="Japan Overview" class="card-image">
+        <h3>Office Worker (Salaryman)</h3>
+        <p>The traditional "salaryman" remains one of the most iconic professions in Japan's corporate world.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <!-- Footer content can be added here -->
+  </footer>
+
+  <script src="main.js"></script>
 </body>
 </html>
