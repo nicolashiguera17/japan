@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
   }
+html{
+  scroll-behavior: smooth;
+ }
   
   body {
     font-family: 'Poppins', sans-serif;
@@ -26,8 +29,10 @@
     flex: 1;
     max-width: 500px;
     z-index: 1;
-   
+    position: relative;
+    top: -80px; 
   }
+  
   
   .content h1 {
     font-size: 3.5rem;
@@ -46,19 +51,12 @@
     color: #4b2e2e;
   }
   
-  button {
-    padding: 10px 20px;
-    background: #db4d4d;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
+  
   
   .temple-img {
     position: absolute;
     right: 0px;
-    bottom: 0px;
+    bottom: -30px;
     height: 110%;
     z-index: 0;
     opacity: 0.;
@@ -114,6 +112,7 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 50px;
+
 }
 
 .logo {
@@ -127,7 +126,7 @@
 
 .logo::before {
     content: "";
-    margin-right: 40px;
+    margin-right: -80px;
     font-size: 2rem;
 }
 
@@ -145,7 +144,7 @@
     transition: all 0.3s ease;
     position: relative;
     padding: 8px 0;
-    margin-left: 100px;
+    margin-left: 10px;
 }
 
 .nav-links a:hover {
@@ -167,4 +166,155 @@
 
 .nav-links a:hover::after {
     width: 100%;
+}
+
+
+
+
+.button-42 {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+  height: 40px;
+  line-height: 40px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 30%;
+  z-index: 9;
+  border: 0;
+  transition: box-shadow .2s;
+}
+
+.button-42:hover {
+  box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 3rem;
+  border-radius: 12px;
+  color: white;
+}
+
+.overlay h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.overlay p {
+  font-size: 1.2rem;
+}
+
+.section {
+  padding: 5rem 10%;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.section:nth-child(even) {
+  background-color: #fdf1f1;
+}
+
+.section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  color: #d32f2f;
+}
+
+.section p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f8f8f8;
+  font-size: 0.9rem;
+}
+
+.info-section {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 5rem 10%;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  backdrop-filter: blur(5px);
+  margin: 2rem auto;
+}
+
+.info-section h1 {
+  font-size: 2.8rem;
+  color: #c62828;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-family: 'Georgia', serif;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px #f1bebe;
+}
+
+.info-block {
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background: #fff7f7;
+  border-left: 6px solid #c62828;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+  transition: transform 0.3s ease;
+}
+
+.info-block:hover {
+  transform: translateY(-4px);
+}
+
+.info-block h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #ad1f1f;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.info-block p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #333;
+  margin: 0.5rem 0;
+}
+
+strong {
+  color: #c62828;
+  font-weight: bold;
+}
+
+.farol {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  pointer-events: none;
+  z-index: 3;
+  animation: flotar 10s linear infinite;
+  opacity: 0.85;
+}
+
+@keyframes flotar {
+  0% {
+    transform: translateY(100vh) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-20vh) rotate(360deg);
+    opacity: 0;
+  }
 }
